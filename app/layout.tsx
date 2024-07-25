@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import Header from "./components/header";
+import Header from "./components/navigation";
 
 export const metadata = {
   title: "React-study-a19",
