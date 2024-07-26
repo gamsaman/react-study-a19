@@ -1,6 +1,5 @@
 "use client";
-import styles from "./header.module.css";
-
+import styles from "./navigation.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -12,7 +11,7 @@ export default function Header() {
       <ul>
         <li>
           {path === "/" ? (
-            <Link href="/" className="on-link">
+            <Link href="/" className={styles.onLink}>
               Home
             </Link>
           ) : (
@@ -21,7 +20,7 @@ export default function Header() {
         </li>
         <li>
           {path === "/about" ? (
-            <Link href="/" className="on-link">
+            <Link href="/about" className={styles.onLink}>
               About
             </Link>
           ) : (

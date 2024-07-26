@@ -1,0 +1,19 @@
+.aboutWrapper {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+.aboutWrapper > h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.aboutWrapper > p {
+  color: #222;
+  line-height: 1.5;
+  text-align: center;
+}

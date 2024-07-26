@@ -1,3 +1,36 @@
 .nav {
-  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav > ul {
+  display: flex;
+  justify-content: center;
+}
+.nav > ul > li:first-child {
+  margin-right: 4cm;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #222;
+  position: relative;
+}
+.onLink {
+  font-weight: bold;
+  color: dodgerblue !important;
+}
+.onLink::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: dodgerblue;
+  position: absolute;
+  top: 40px;
+  left: 0;
 }

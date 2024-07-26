@@ -104,6 +104,11 @@ section {
 
 body {
   line-height: 1;
+  padding-bottom: 50px;
+}
+
+body * {
+  box-sizing: border-box;
 }
 
 ol,
